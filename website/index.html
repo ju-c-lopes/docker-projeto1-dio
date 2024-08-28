@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Projeto Docker DIO</title>
+<style>
+  body {
+    background-color: #9c9c9c;
+  }
+  h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #3c3c3c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+  }
+  .logos {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logos img {
+    background: white;
+    border-radius: 25% 0 25% 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+  }
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-family: 'san serif';
+    width: 60%;
+    text-align: justify;
+  }
+</style>
+</head>
+<body>
+<h1>Meu Projeto Docker Desafio DIO</h1>
+<div class="logos">
+  <img src="https://cdn.iconscout.com/icon/free/png-512/free-docker-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-language-pack-logos-icons-1175229.png?f=webp&w=512" alt="logotipo Docker">
+  <img src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png" alt="logotipo Dio">
+</div>
+<section>
+<p>
+  Desafio feito para o curso de <em>Docker Fundamentals</em> que consiste em editar o <code>arquivo yml</code> do docker compose, criando uma página html que subirá em um volume docker e será usada no container da aplicação.
+</p>
+<p>
+  A aplicação é um servidor apache que disponibiliza a aplicação web na porta 80:80 e pode ser acessada através do IP que está rodando o container da aplicação
+</p>
+</section>
+</body>
